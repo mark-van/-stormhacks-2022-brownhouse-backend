@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>pickflick</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1 id="testing">pickflick</h1>
+    </div>
+
+    <div class="container-xxl">
+      <div class="row justify-content-center">
+          <div class="carousel slide col-9" data-bs-ride="carousel" id="startingPageCarousel">
+              <div class="carousel-indicators">
+                  <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                          data-bs-target="#startingPageCarousel" type="button"></button>
+                  <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#startingPageCarousel"
+                          type="button"></button>
+                  <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#startingPageCarousel"
+                          type="button"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active col-4">
+                      <img alt="" class="d-block w-100" src="/images/spider.webp">
+                  </div>
+                  <div class="carousel-item col-4">
+                      <img alt="" class="d-block w-100" src="/images/uncharted.jpg">
+                  </div>
+                  <div class="carousel-item col-4">
+                      <img alt="" class="d-block w-100" src="/images/widow.jpg">
+                  </div>
+              </div>
+
+              <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#startingPageCarousel"
+                      type="button">
+                  <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#startingPageCarousel"
+                      type="button">
+                  <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+      </div>
+  </div>
+
+    <div class="container movie-picker">
+      <div class="pastMovie">
+        prev
+      </div>
+      <div class="currentMovie">
+        current
+      </div>
+      <div class="nextMovie">
+        next
+      </div>
+    </div>
+  
+  <link rel="stylesheet" href="/styles/stylesheet.css">
+  <script crossorigin="anonymous"
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>z
+</body>
+
+</html>
